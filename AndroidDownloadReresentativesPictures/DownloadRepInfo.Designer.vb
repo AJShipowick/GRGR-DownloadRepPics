@@ -40,7 +40,7 @@ Partial Class DownloadRepInfo
         'txtRepPhotoDirectory
         '
         Me.txtRepPhotoDirectory.Location = New System.Drawing.Point(170, 24)
-        Me.txtRepPhotoDirectory.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtRepPhotoDirectory.Margin = New System.Windows.Forms.Padding(2)
         Me.txtRepPhotoDirectory.Name = "txtRepPhotoDirectory"
         Me.txtRepPhotoDirectory.Size = New System.Drawing.Size(343, 20)
         Me.txtRepPhotoDirectory.TabIndex = 0
@@ -60,7 +60,7 @@ Partial Class DownloadRepInfo
         '
         Me.rdbtnSmallPic.AutoSize = True
         Me.rdbtnSmallPic.Location = New System.Drawing.Point(18, 98)
-        Me.rdbtnSmallPic.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdbtnSmallPic.Margin = New System.Windows.Forms.Padding(2)
         Me.rdbtnSmallPic.Name = "rdbtnSmallPic"
         Me.rdbtnSmallPic.Size = New System.Drawing.Size(68, 17)
         Me.rdbtnSmallPic.TabIndex = 2
@@ -72,7 +72,7 @@ Partial Class DownloadRepInfo
         '
         Me.rdbtnMediumPic.AutoSize = True
         Me.rdbtnMediumPic.Location = New System.Drawing.Point(18, 128)
-        Me.rdbtnMediumPic.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdbtnMediumPic.Margin = New System.Windows.Forms.Padding(2)
         Me.rdbtnMediumPic.Name = "rdbtnMediumPic"
         Me.rdbtnMediumPic.Size = New System.Drawing.Size(80, 17)
         Me.rdbtnMediumPic.TabIndex = 3
@@ -84,7 +84,7 @@ Partial Class DownloadRepInfo
         '
         Me.rdbtnLargePic.AutoSize = True
         Me.rdbtnLargePic.Location = New System.Drawing.Point(18, 154)
-        Me.rdbtnLargePic.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdbtnLargePic.Margin = New System.Windows.Forms.Padding(2)
         Me.rdbtnLargePic.Name = "rdbtnLargePic"
         Me.rdbtnLargePic.Size = New System.Drawing.Size(72, 17)
         Me.rdbtnLargePic.TabIndex = 4
@@ -105,17 +105,17 @@ Partial Class DownloadRepInfo
         'txtAndroidDirectory
         '
         Me.txtAndroidDirectory.Location = New System.Drawing.Point(170, 56)
-        Me.txtAndroidDirectory.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtAndroidDirectory.Margin = New System.Windows.Forms.Padding(2)
         Me.txtAndroidDirectory.Name = "txtAndroidDirectory"
         Me.txtAndroidDirectory.Size = New System.Drawing.Size(410, 20)
         Me.txtAndroidDirectory.TabIndex = 6
-        Me.txtAndroidDirectory.Text = "D:\Source\AndroidStudioProjects\GRGR4\app\src\main\assets"
+        Me.txtAndroidDirectory.Text = "D:\Source\AndroidStudioProjects\GRGR\app\src\main\assets"
         '
         'rdbtnAllPics
         '
         Me.rdbtnAllPics.AutoSize = True
         Me.rdbtnAllPics.Location = New System.Drawing.Point(18, 184)
-        Me.rdbtnAllPics.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdbtnAllPics.Margin = New System.Windows.Forms.Padding(2)
         Me.rdbtnAllPics.Name = "rdbtnAllPics"
         Me.rdbtnAllPics.Size = New System.Drawing.Size(87, 17)
         Me.rdbtnAllPics.TabIndex = 7
@@ -126,7 +126,7 @@ Partial Class DownloadRepInfo
         'btnStartDownload
         '
         Me.btnStartDownload.Location = New System.Drawing.Point(539, 111)
-        Me.btnStartDownload.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnStartDownload.Margin = New System.Windows.Forms.Padding(2)
         Me.btnStartDownload.Name = "btnStartDownload"
         Me.btnStartDownload.Size = New System.Drawing.Size(76, 39)
         Me.btnStartDownload.TabIndex = 8
@@ -146,7 +146,7 @@ Partial Class DownloadRepInfo
         'txtAndroidRootStringDirectory
         '
         Me.txtAndroidRootStringDirectory.Location = New System.Drawing.Point(170, 217)
-        Me.txtAndroidRootStringDirectory.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtAndroidRootStringDirectory.Margin = New System.Windows.Forms.Padding(2)
         Me.txtAndroidRootStringDirectory.Name = "txtAndroidRootStringDirectory"
         Me.txtAndroidRootStringDirectory.Size = New System.Drawing.Size(343, 20)
         Me.txtAndroidRootStringDirectory.TabIndex = 10
@@ -156,7 +156,7 @@ Partial Class DownloadRepInfo
         '
         Me.ckDownloadPics.AutoSize = True
         Me.ckDownloadPics.Location = New System.Drawing.Point(437, 111)
-        Me.ckDownloadPics.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ckDownloadPics.Margin = New System.Windows.Forms.Padding(2)
         Me.ckDownloadPics.Name = "ckDownloadPics"
         Me.ckDownloadPics.Size = New System.Drawing.Size(103, 17)
         Me.ckDownloadPics.TabIndex = 13
@@ -167,7 +167,7 @@ Partial Class DownloadRepInfo
         '
         Me.ckDownloadFile.AutoSize = True
         Me.ckDownloadFile.Location = New System.Drawing.Point(437, 133)
-        Me.ckDownloadFile.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ckDownloadFile.Margin = New System.Windows.Forms.Padding(2)
         Me.ckDownloadFile.Name = "ckDownloadFile"
         Me.ckDownloadFile.Size = New System.Drawing.Size(99, 17)
         Me.ckDownloadFile.TabIndex = 14
@@ -192,7 +192,7 @@ Partial Class DownloadRepInfo
         Me.Controls.Add(Me.rdbtnSmallPic)
         Me.Controls.Add(Me.lblRepPicsRoot)
         Me.Controls.Add(Me.txtRepPhotoDirectory)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "DownloadRepInfo"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Download Representative Pics for Android"
