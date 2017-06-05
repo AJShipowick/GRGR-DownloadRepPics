@@ -24,7 +24,7 @@ Public Class RepresentativePictures
             Try
 
                 Dim downloadURI As String = picWebsiteStartingURL + listOfCurrentMemberOfCongress(i) + picSizeURL
-                Client.DownloadFile(downloadURI, androidDirectory + "repid" + listOfCurrentMemberOfCongress(i) + ".jpeg")
+                Client.DownloadFile(downloadURI, androidDirectory + "repid" + listOfCurrentMemberOfCongress(i) + ".jpg")
 
             Catch ex As Exception
                 'badUrls.Add(downloadURI)
@@ -35,9 +35,9 @@ Public Class RepresentativePictures
         MessageBox.Show("The number of bad urls = " + badUrlsCount.ToString)
     End Sub
 
-    Const smallPicEndingURL = "-50px.jpeg"
-    Const mediumPicEndingURL = "-100px.jpeg"
-    Const largePicEndingURL = "-200px.jpeg"
+    Const smallPicEndingURL = "-50px.jpg"
+    Const mediumPicEndingURL = "-100px.jpg"
+    Const largePicEndingURL = "-200px.jpg"
     Private Function GetPicSizeURL(smallPic As Boolean, mediumPic As Boolean, largePic As Boolean) As String
         Dim url = ""
 

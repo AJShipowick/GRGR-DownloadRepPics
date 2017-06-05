@@ -109,7 +109,7 @@ Partial Class DownloadRepInfo
         Me.txtAndroidDirectory.Name = "txtAndroidDirectory"
         Me.txtAndroidDirectory.Size = New System.Drawing.Size(410, 20)
         Me.txtAndroidDirectory.TabIndex = 6
-        Me.txtAndroidDirectory.Text = "D:\Source\AndroidStudioProjects\GRGR\app\src\main\assets"
+        Me.txtAndroidDirectory.Text = "D:\Source\AndroidStudioProjects\GRGR4\app\src\main\assets"
         '
         'rdbtnAllPics
         '
